@@ -16,6 +16,10 @@ export default function Card() {
           Get <spna className={classes.card_title_highlight}>insights</spna>{' '}
           that help your business grow.
         </h3>
+        <p className={classes.card_para}>
+          Discover the benefits of data analytics and make better decisions
+          regarding revenue, customer, experience, and overall efficiency.
+        </p>
       </main>
     </div>
   )

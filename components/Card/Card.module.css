@@ -31,10 +31,19 @@
 
 .card_title {
   margin-top: 10px;
+  margin-bottom: 20px;
   font-size: 27px;
   text-align: center;
 }
 
 .card_title_highlight {
   color: hsl(277, 64%, 61%);
+}
+
+.card_para {
+  color: hsla(0, 0%, 100%, 0.75);
+  text-align: center;
+  font-size: 15px;
+  line-height: 1.6rem;
+  margin-top: 0;
 }
