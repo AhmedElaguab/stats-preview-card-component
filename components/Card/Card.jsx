@@ -11,7 +11,12 @@ export default function Card() {
           href="women working on a table"
         />
       </header>
-      <main className={classes.card_body}></main>
+      <main className={classes.card_body}>
+        <h3 className={classes.card_title}>
+          Get <spna className={classes.card_title_highlight}>insights</spna>{' '}
+          that help your business grow.
+        </h3>
+      </main>
     </div>
   )
 }

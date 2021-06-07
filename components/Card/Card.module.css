@@ -1,5 +1,8 @@
 .card {
   color: #fff;
+  background-color: hsl(244, 38%, 16%);
+  border-radius: 6px;
+  overflow: hidden;
 }
 
 .card_header {
@@ -23,4 +26,5 @@
 }
 
 .card_body {
+  padding: 35px;
 }
