@@ -30,8 +30,8 @@
 }
 
 .card_title {
+  margin: 0;
   margin-top: 10px;
-  margin-bottom: 20px;
   font-size: 27px;
   text-align: center;
 }
@@ -45,11 +45,12 @@
   text-align: center;
   font-size: 15px;
   line-height: 1.6rem;
-  margin-top: 0;
+  margin: 0;
+  margin-top: 20px;
 }
 
 .card_stats {
-  padding-top: 30px;
+  padding-top: 40px;
 }
 
 .card_stats_item {
@@ -70,10 +71,10 @@
 .card_stats_heading {
   display: block;
   color: hsla(0, 0%, 100%, 0.6);
-  text-transform: uppercase;
-  font-size: 12px;
   font-family: Inter, sans-serif;
+  font-size: 12px;
   font-weight: 700;
   letter-spacing: 1.5px;
+  text-transform: uppercase;
   margin-top: 8px;
 }
