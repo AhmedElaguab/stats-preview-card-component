@@ -20,6 +20,20 @@ export default function Card() {
           Discover the benefits of data analytics and make better decisions
           regarding revenue, customer, experience, and overall efficiency.
         </p>
+        <div className={classes.card_stats}>
+          <div className={classes.card_stats_item}>
+            <span className={classes.card_stats_value}>10K+</span>
+            <span className={classes.card_stats_heading}>Companies</span>
+          </div>
+          <div className={classes.card_stats_item}>
+            <span className={classes.card_stats_value}>314</span>
+            <span className={classes.card_stats_heading}>Templates</span>
+          </div>
+          <div className={classes.card_stats_item}>
+            <span className={classes.card_stats_value}>12M+</span>
+            <span className={classes.card_stats_heading}>Queries</span>
+          </div>
+        </div>
       </main>
     </div>
   )
