@@ -1,4 +1,6 @@
 .card {
+  display: flex;
+  flex-direction: column;
   color: #fff;
   background-color: hsl(244, 38%, 16%);
   border-radius: 6px;
