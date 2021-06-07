@@ -4,6 +4,7 @@ export default function Card() {
   return (
     <div className={classes.card}>
       <header className={classes.card_header}>
+        <div className={classes.card_overlay} />
         <img
           className={classes.card_image}
           src="/images/image-header-mobile.jpg"

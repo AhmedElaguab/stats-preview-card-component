@@ -3,10 +3,24 @@
 }
 
 .card_header {
-}
-
-.card_body {
+  height: 280px;
+  position: relative;
 }
 
 .card_image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 75%;
+  mix-blend-mode: multiply;
+}
+
+.card_overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: hsl(277, 64%, 61%);
+}
+
+.card_body {
 }
