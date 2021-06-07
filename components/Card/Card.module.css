@@ -80,3 +80,51 @@
   text-transform: uppercase;
   margin-top: 8px;
 }
+
+/* desktop styles */
+@media screen and (min-width: 1200px) {
+  .card {
+    flex-direction: row;
+    max-width: 1100px;
+    height: 460px;
+    align-items: stretch;
+  }
+
+  .card_header {
+    order: 2;
+    width: 50%;
+    height: 100%;
+  }
+
+  .card_body {
+    order: 1;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 75px;
+  }
+
+  .card_title {
+    text-align: left;
+    font-size: 37px;
+  }
+
+  .card_para {
+    text-align: left;
+    margin-top: 30px;
+  }
+
+  .card_stats {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 80px;
+  }
+
+  .card_stats_item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-grow: 1;
+  }
+}
