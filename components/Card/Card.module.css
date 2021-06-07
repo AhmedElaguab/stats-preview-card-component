@@ -28,3 +28,13 @@
 .card_body {
   padding: 35px;
 }
+
+.card_title {
+  margin-top: 10px;
+  font-size: 27px;
+  text-align: center;
+}
+
+.card_title_highlight {
+  color: hsl(277, 64%, 61%);
+}
