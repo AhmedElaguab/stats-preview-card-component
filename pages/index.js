@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import classes from '../styles/Home.module.css'
 
+import Card from '../components/Card/Card'
+
 export default function Home() {
   return (
     <div>
@@ -11,7 +13,7 @@ export default function Home() {
       </Head>
 
       <main className={classes.main}>
-        <h1>Hello world!</h1>
+        <Card />
       </main>
     </div>
   )
